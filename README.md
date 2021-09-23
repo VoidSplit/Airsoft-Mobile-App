@@ -14,3 +14,4 @@ But from now on, Airsoft Maker is supposed to be an ultra complete application i
 
 # Authors
 - <a href='https://github.com/VoidSplit'>VoidSplit</a>
+- <a href='https://github.com/Siarrax'>Siarrax</a>

@@ -5,7 +5,7 @@ Originally, Airsoft Maker was supposed to be a 3d airsoft gun viewer application
 But from now on, Airsoft Maker is supposed to be an ultra complete application intended to be used by airsofters and event organizers in order to have additional functionality during the game and its organization.
 
 # What are the features?
-- A forum with différents topics.
+- A forum with differents topics.
 - A section to organize a game and to join it.
 - A 3d airsoft gun viewer.
 - An inventory system to be able to use your airsoft guns and accessories in the 3d environment.

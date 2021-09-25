@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+main {
+    position: relative;
+    height: 100%;
+    background-image: url('../image/landing-image-connexion.jpg');
+    background-size: cover;
+    background-position: center;
+}
+section {
+    background-color: rgba(33, 33, 44, 0.4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    position: relative;
+    background-color: rgba(97, 105, 96, 0.6);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+form .inner {
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+form .inner .title {
+    font-weight: 600;
+    margin: 7.5px 0;
+}
+form .inner .wrapper {
+    display: flex;
+    flex-direction: column;
+}
+input:not([type='submit']) {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    display: flex;
+    margin: 7.5px 0;
+}
+input:not([type='submit']):focus {
+    outline: none;
+    border-color: #a7a7a7;
+}
+input[type="submit"] {
+    border: none;
+    background-color: #39774c;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1em;
+    margin: 7.5px 0;
+}
+input[type="submit"]:hover {
+    background-color: #49805a;
+}
+.forgot-p {
+    color: #95b39f;
+}
+.sign-up-wrapper {
+    position: relative;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+}
+.sign-up-wrapper p {
+    padding-right: 7px;
+}
+.sign-up-wrapper .accented {
+    color: #6aa07c;
+    font-weight: 700;
+}
+h1.welcome {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.cgu input {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.cgu input:before {
+    position: absolute;
+    content: '';
+    height: 17px;
+    width: 17px;
+    /*background-color: rgba(255, 0, 0, 0.507);*/
+    top: -2px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+.cgu input:checked:before {
+    background-color: #6aa07c;
+}
+.cgu input:checked:after {
+    position: absolute;
+    content: '';
+    height: 9px;
+    width: 9px;
+    border-radius: 15px;
+    background-color: #fff;
+    top: calc(8.5px - 5px);
+    left: calc(8.5px - 3.5px);
+}
+.cgu p {
+    display: inline-block;
+}
+.cgu a {
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "prefix": "^1.0.0",
+    "sass": "^1.42.1"
+  },
+  "name": "application-airsoft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./web/sass/main.scss:web/public/css/style.css --style compressed",
+    "prefix": "postcss ./web/public/css/style.css --use autoprefixer -d ./web/public/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

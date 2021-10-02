@@ -1,0 +1,51 @@
+.card {
+    margin: 10px 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #464646;
+    padding-bottom: 5px;
+}
+.text {
+    height: 100%;
+    width: calc(100% - 60px);
+}
+.title {
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.description {
+    color: #c2c2c2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.image {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+.image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.owner {
+    padding-top: 5px;
+    color: rgb(114, 114, 114);
+    font-size: .8rem;
+}
+.date {
+    display: inline-flex;
+    padding-top: 5px;
+    color: rgb(114, 114, 114);
+    font-size: .8rem;
+}
+.text .row {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}

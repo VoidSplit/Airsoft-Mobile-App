@@ -1,16 +1,11 @@
 function toggleMenu() {
-    let list = document.getElementById('nav-content');
+    let list = document.getElementById('nav-wrapper');
     list.classList.toggle('active');
     if(list.classList.contains('active')) {
-        list.style.transform = "translateY(210px)";
+        list.style.left = "0%";
     } else {
-        list.style.transform = "translateY(0px)";
+        list.style.left = "-100%";
     }
 }
-function toggleMode() {
-    let page = document.getElementById('page');
-    page.classList.toggle('dark');
-    page.classList.toggle('light');
-}
 document.getElementById('menu').addEventListener('click', toggleMenu);
-document.getElementById('modes').addEventListener('click', toggleMode);
+document.getElementById('close-navbar').addEventListener('click', toggleMenu);

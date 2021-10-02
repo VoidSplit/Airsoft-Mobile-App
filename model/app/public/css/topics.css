@@ -1,0 +1,74 @@
+.card {
+    padding: 10px 15px;
+    height: 160px;
+    margin: 0 20px;
+    border-radius: 5px;
+    background-color: #1E222B;
+    overflow: hidden;
+}
+.card:not(:nth-child(1)) {
+    margin-top: 20px;
+}
+.card .top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 5px;
+}
+.card .top .tag {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .7rem;
+}
+.card .top .tag .bg {
+    background-color: var(--accent-color);
+    padding: 1px 10px;
+    border-radius: 15px;
+}
+.card .top .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+    font-size: 1.3em;
+}
+.card .top .button i:nth-child(2) {
+    display: none;
+}
+.card .top .button i:nth-child(1) {
+    display: block;
+}
+.card .top .button.checked i:nth-child(1) {
+    display: none;
+}
+.card .top .button.checked i:nth-child(2) {
+    display: block;
+}
+.card .topic {
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .7rem;
+}
+.card .title {
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.card .description {
+    color: #c2c2c2;
+    display: -webkit-box;
+    max-width: 300px;
+    font-size: .9rem;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card .owner {
+    font-weight: bold;
+    font-size: .9rem;
+    display: flex;
+    justify-content: flex-end;
+}
